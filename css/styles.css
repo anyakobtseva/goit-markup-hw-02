@@ -76,7 +76,7 @@ border: none;
 color: var(--color-hero);
 background-color: var(--color-brand);
 }
-.hero-button:hover {
+.hero-button:focus {
     background-color: var(--color-active);
 }
 .benefit-title {
