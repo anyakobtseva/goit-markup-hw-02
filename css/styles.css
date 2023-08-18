@@ -66,10 +66,12 @@ text-align: center;
 color: var(--color-hero);
 }
 .hero-button {
+font-family: Roboto;
+font-size: 16px;
 font-weight: 500;
 line-height: 1.5; /* 150% */
-letter-spacing: 0.04em;
 text-align: center;
+cursor: pointer;
 border: none;
 color: var(--color-hero);
 background-color: var(--color-brand);
