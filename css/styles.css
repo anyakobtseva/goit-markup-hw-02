@@ -103,8 +103,8 @@ background-color: var(--color-brand);
     color: var(--color-secondary);
 }
 /* Team section*/
-.section-team {
-    background-color: #F4F4FD;
+.team-list {
+    background-color: var(--color-hero);
 }
 .section-title {
     font-size: 36px;
