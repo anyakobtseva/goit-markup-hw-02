@@ -29,29 +29,34 @@ a {
     font-family: Raleway, sans-serif;
 font-size: 18px;
 font-weight: 700;
-line-height: 1.16; /* 116.667% */
+line-height: 1.166; /* 116.667% */
 letter-spacing: 0.03em;
-color: var(--color-primary);
+text-transform: uppercase;
+color: var(--color-brand);
 }
 .header-logo .accent {
-    color: var(--color-brand);
+    color: var(--color-primary);
 }
 .header-link {
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-primary);
 }
-.header-link:hover {
+.header-link:hover,
+.header-link:focus
+ {
     color: var(--color-active);
 }
-.contacts-link {
+.contacts {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
     color: var(--color-secondary);
 }
-.contacts-link:hover {
+.contacts:hover,
+.contacts:focus {
     color: var(--color-active);
 }
 .hero-section {
