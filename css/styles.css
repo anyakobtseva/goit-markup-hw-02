@@ -49,14 +49,14 @@ color: var(--color-brand);
  {
     color: var(--color-active);
 }
-.contacts {
+.contacts-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
     color: var(--color-secondary);
 }
-.contacts:hover,
-.contacts:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: var(--color-active);
 }
 .hero-section {
