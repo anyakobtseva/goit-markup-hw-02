@@ -84,7 +84,7 @@ background-color: var(--color-brand);
 .hero-button:focus {
     background-color: var(--color-active);
 }
-.benefit-list {
+.benefit-list li {
     background-color: var(--color-hero);
 }
 .benefit-title {
